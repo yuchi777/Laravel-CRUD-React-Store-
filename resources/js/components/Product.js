@@ -153,7 +153,7 @@ class Product extends React.Component {
 
                     <div className="img-wrapper">
                         <div className="out-stock-text">Out of Stock</div>
-                        <figure className="image is-4by3">
+                        <figure className="image is-4by5">
                             {/* <img src="/images/2.jpg" alt="" /> */}
                             {/* <img src="http://fakeimg.pl/640x480/" alt="Nike Paul George PG 3" /> */}
                             <img src={image} alt={name} />

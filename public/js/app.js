@@ -1371,7 +1371,7 @@ var Product = /*#__PURE__*/function (_React$Component) {
                 className: "out-stock-text",
                 children: "Out of Stock"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("figure", {
-                className: "image is-4by3",
+                className: "image is-4by5",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("img", {
                   src: image,
                   alt: name
