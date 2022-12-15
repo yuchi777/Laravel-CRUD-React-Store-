@@ -25,7 +25,7 @@ const Header = (props) => {
                 if( data === 'logout'){
                     // props.history.go(0);
                     // props.history.push("/");
-                    location.reload();
+                    window.location.reload();
                 }
             }
         })
