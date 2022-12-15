@@ -282,7 +282,7 @@ __webpack_require__.r(__webpack_exports__);
 var axiosSwitch = function axiosSwitch(baseURL) {
   //創建實例
   var instance = axios__WEBPACK_IMPORTED_MODULE_0__["default"].create({
-    baseURL: baseURL || 'http://localhost:8000',
+    baseURL: baseURL || 'http://localhost:8000' || 0,
     timeout: 10000
   });
 
