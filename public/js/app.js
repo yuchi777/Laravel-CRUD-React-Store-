@@ -1590,7 +1590,7 @@ var Products = /*#__PURE__*/function (_React$Component) {
               // 依據userID判斷資料所屬
               user = localStorage.getItem('email') || {};
               _context2.next = 3;
-              return _commons_axios__WEBPACK_IMPORTED_MODULE_3__["default"].get("/carts", {
+              return _commons_axios__WEBPACK_IMPORTED_MODULE_3__["default"].get("/carts/", {
                 //get request透過params傳送參數
                 params: {
                   userId: user
@@ -1636,7 +1636,7 @@ var Products = /*#__PURE__*/function (_React$Component) {
       // })  
 
       //(二)axios方法-------------------------------
-      _commons_axios__WEBPACK_IMPORTED_MODULE_3__["default"].get('/products').then(function (re) {
+      _commons_axios__WEBPACK_IMPORTED_MODULE_3__["default"].get('/products/').then(function (re) {
         console.log(re.data);
         _this2.setState({
           products: re.data,

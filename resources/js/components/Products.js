@@ -37,7 +37,7 @@ class Products extends React.Component{
         // })  
 
         //(二)axios方法-------------------------------
-        axios.get('/products')
+        axios.get('/products/')
         .then((re)=>{
             console.log(re.data);
             this.setState({
@@ -162,7 +162,7 @@ class Products extends React.Component{
     initCartNum = async () => {
         // 依據userID判斷資料所屬
         const user = localStorage.getItem('email') || {}
-        const res = await  axios.get(`/carts`,{
+        const res = await  axios.get(`/carts/`,{
             //get request透過params傳送參數
             params:{
                 userId:user
