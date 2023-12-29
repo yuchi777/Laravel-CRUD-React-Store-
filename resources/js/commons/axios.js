@@ -6,7 +6,7 @@ const axiosSwitch = (baseURL) => {
 
   //創建實例
   const instance = axios.create({
-    baseURL:'http://phplaravel-1172693-4186560.cloudwaysapps.com/',
+    baseURL:'https://phplaravel-1172693-4186560.cloudwaysapps.com/',
     timeout: 10000
   });
 
