@@ -282,7 +282,7 @@ __webpack_require__.r(__webpack_exports__);
 var axiosSwitch = function axiosSwitch(baseURL) {
   //創建實例
   var instance = axios__WEBPACK_IMPORTED_MODULE_0__["default"].create({
-    baseURL: 'http://phplaravel-1172693-4186560.cloudwaysapps.com/',
+    baseURL: 'https://phplaravel-1172693-4186560.cloudwaysapps.com/',
     timeout: 10000
   });
 
